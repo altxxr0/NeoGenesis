@@ -1,9 +1,10 @@
-// OpenGLRenderer.h
+// VulkanRenderer.h
 #pragma once
-#include "IRenderer.h"
 #include "pch.h"
+#include "IRenderer.h" // Ensure IRenderer is included
 
-class OpenGLRenderer : public IRenderer {
+
+class VulkanRenderer : public IRenderer {
 public:
     void Init() override;
     void Draw() override;

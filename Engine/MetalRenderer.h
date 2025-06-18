@@ -1,9 +1,9 @@
-// OpenGLRenderer.h
+// MetalRenderer.h
 #pragma once
 #include "IRenderer.h"
 #include "pch.h"
 
-class OpenGLRenderer : public IRenderer {
+class MetalRenderer : public IRenderer {
 public:
     void Init() override;
     void Draw() override;

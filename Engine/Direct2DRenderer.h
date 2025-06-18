@@ -1,9 +1,9 @@
-// OpenGLRenderer.h
+// Direct2DRenderer.h
 #pragma once
 #include "IRenderer.h"
 #include "pch.h"
 
-class OpenGLRenderer : public IRenderer {
+class Direct2DRenderer : public IRenderer {
 public:
     void Init() override;
     void Draw() override;
