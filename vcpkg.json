@@ -1,0 +1,8 @@
+{
+  "name": "neogenesis",
+  "version": "0.1.0",
+  "dependencies": [
+    "glfw3",
+    "vulkan-sdk"
+  ]
+}

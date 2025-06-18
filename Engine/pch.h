@@ -7,6 +7,9 @@
 #ifndef PCH_H
 #define PCH_H
 
+#pragma comment(lib, "d2d1.lib")
+
+
 // add headers that you want to pre-compile here
 #include "framework.h"
 

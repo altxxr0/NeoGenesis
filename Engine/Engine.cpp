@@ -6,6 +6,7 @@
 namespace {
     IRenderer* renderer = nullptr;
     Window* window = nullptr;
+    RendererType rendererType = RendererType::OpenGL;
 }
 
 namespace Engine {
@@ -15,10 +16,20 @@ namespace Engine {
             delete renderer;
         }
         renderer = RendererFactory::CreateRenderer(type);
+        rendererType = type;
     }
 
     void Init() {
-        window = new Window("NeoGenesis", 1280, 720);
+        APIBackend backend;
+        switch (rendererType) {
+		case RendererType::OpenGL: backend = APIBackend::OpenGL; break;
+        case RendererType::Vulkan: backend = APIBackend::Vulkan; break;
+        case RendererType::Direct2D: backend = APIBackend::OpenGL; break;
+        default: backend = APIBackend::OpenGL;
+        }
+
+        window = new Window("NeoGenesis", 1280, 720, backend);
+        
         if (renderer) renderer->Init();
     }
 
