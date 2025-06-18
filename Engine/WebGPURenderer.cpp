@@ -4,13 +4,13 @@
 #include <iostream>
 
 void WebGPURenderer::Init() {
-    std::cout << "[Direct2D] Init\n";
+    std::cout << "[WebGPU] Init\n";
 }
 
 void WebGPURenderer::Draw() {
-    std::cout << "[Direct2D] Draw\n";
+    std::cout << "[WebGPU] Draw\n";
 }
 
 void WebGPURenderer::Shutdown() {
-    std::cout << "[Direct2D] Shutdown\n";
+    std::cout << "[WebGPU] Shutdown\n";
 }

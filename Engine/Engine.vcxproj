@@ -144,6 +144,7 @@
     <ClInclude Include="pch.h" />
     <ClInclude Include="RendererFactory.h" />
     <ClInclude Include="WebGPURenderer.h" />
+    <ClInclude Include="Window.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Direct2DRenderer.cpp" />
@@ -160,6 +161,7 @@
     <ClCompile Include="VulkanRenderer.cpp" />
     <ClCompile Include="VulkanRenderer.h" />
     <ClCompile Include="WebGPURenderer.cpp" />
+    <ClCompile Include="Window.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

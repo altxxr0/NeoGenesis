@@ -7,5 +7,6 @@ namespace Engine {
     void SetRenderer(RendererType type); // <!>
     void Init();                         // <!>
     void Draw();                         // <!>
+	void Run();                          // <!>
     void Shutdown();                     // <!>
 }
