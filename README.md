@@ -1,3 +1,3 @@
-# NeoGenesis
+# Genesis
 
 ~ Ongoing Project ~
