@@ -24,7 +24,6 @@
     <ProjectGuid>{47e9549d-7549-41cb-8e60-cfc791ff737a}</ProjectGuid>
     <RootNamespace>NeoGenesis</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Genesis</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
